@@ -1,4 +1,4 @@
-export const MODEL = 'gpt-4o'
+export const MODEL = 'gpt-5.2'
 
 // System prompt for the assistant
 export const SYSTEM_PROMPT = `
