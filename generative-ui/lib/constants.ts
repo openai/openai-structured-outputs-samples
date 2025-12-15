@@ -1,4 +1,4 @@
-export const MODEL = 'gpt-4o'
+export const MODEL = 'gpt-5.2'
 
 export const SYSTEM_PROMPT = `
 Generate a UI component based on the user input, to answer as relevantly as possible.
