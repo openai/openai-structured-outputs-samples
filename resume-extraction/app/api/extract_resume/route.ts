@@ -1,6 +1,6 @@
 import { EXTRACT_VALUES_PROMPT, MODEL } from '@/lib/constants'
 import { ResumeSchema } from '@/lib/resume'
-import { promises as fs } from 'fs'
+import { promises as fs } from 'node:fs'
 import OpenAI from 'openai'
 import { zodResponseFormat } from 'openai/helpers/zod'
 import PDFParser from 'pdf2json'
